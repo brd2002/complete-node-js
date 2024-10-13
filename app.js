@@ -1,3 +1,4 @@
+require('./xyz.js')
 var name = "Namaste node js" ;
 var a = 10 ;
 var b = 20 ;
