@@ -54,6 +54,7 @@
 // console.log(globalThis) // same like global
 // console.log(globalThis === this ) // false
 // console.log(global === globalThis ) // true
+
 // Simple for loop in JavaScript
 // for (let i = 0; i < 5; i++) {
 //     console.log(`Iteration ${i + 1}`);

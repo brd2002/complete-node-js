@@ -7,9 +7,11 @@ var b = 200 ;
 crypto.pbkdf2('Bharat Ruidas', 'salt', 100000, 64, 'sha512', (derivekey , err) => {
     if (err) {
         console.log(err);
+
     }
     console.log(derivekey);
     console.log("Hashing is done");
+    
 });
 // Synchronous function same function 
 // this will block the event loop untill it get the data from crypto.pbkdf2Sync 
